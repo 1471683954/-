@@ -1,0 +1,50 @@
+java.lang.ArithmeticException: / by zero
+	at MyException.main(MyException.java:8)
+java.lang.ArithmeticException: / by zero
+	at MyException.main(MyException.java:8)
+java.lang.Exception
+	at MyException.a(MyException.java:17)
+	at MyException.b(MyException.java:22)
+	at MyException.c(MyException.java:33)
+	at MyException.main(MyException.java:8)
+java.lang.Exception
+	at MyException.c(MyException.java:36)
+	at MyException.main(MyException.java:8)
+java.lang.Exception
+	at MyException.c(MyException.java:36)
+	at MyException.main(MyException.java:8)
+java.lang.NullPointerException
+	at MyException.a(MyException.java:17)
+	at MyException.b(MyException.java:22)
+	at MyException.c(MyException.java:34)
+	at MyException.main(MyException.java:8)
+java.lang.NullPointerException
+	at MyException.a(MyException.java:17)
+	at MyException.b(MyException.java:22)
+	at MyException.c(MyException.java:34)
+	at MyException.main(MyException.java:8)
+java.lang.Exception
+	at MyException.c(MyException.java:38)
+	at MyException.main(MyException.java:8)
+java.lang.Exception: java.lang.RuntimeException: java.lang.NullPointerException
+	at MyException.c(MyException.java:38)
+	at MyException.main(MyException.java:8)
+Caused by: java.lang.RuntimeException: java.lang.NullPointerException
+	at MyException.b(MyException.java:25)
+	at MyException.c(MyException.java:34)
+	... 1 more
+Caused by: java.lang.NullPointerException
+	at MyException.a(MyException.java:17)
+	at MyException.b(MyException.java:22)
+	... 2 more
+java.lang.Exception: c()
+	at MyException.c(MyException.java:38)
+	at MyException.main(MyException.java:8)
+Caused by: java.lang.RuntimeException: b()
+	at MyException.b(MyException.java:25)
+	at MyException.c(MyException.java:34)
+	... 1 more
+Caused by: java.lang.NullPointerException
+	at MyException.a(MyException.java:17)
+	at MyException.b(MyException.java:22)
+	... 2 more
